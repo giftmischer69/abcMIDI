@@ -1,7 +1,7 @@
 # abcMIDI
 
 the purpose of this repository is to distribute built abcMIDI packages for
-windows
+windows and linux
 
 mirror of: http://abc.sourceforge.net/abcMIDI/original/
 
