@@ -1,0 +1,6 @@
+name: lin_abcMIDI
+channels:
+  - conda-forge
+dependencies:
+  - make
+  - gcc_linux-64

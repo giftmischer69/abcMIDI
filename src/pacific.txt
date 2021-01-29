@@ -1,0 +1,50 @@
+
+Instructions for Compiling with Pacific C (for the PC)
+------------------------------------------------------
+Pacific C is distributed free by Hi-Tech Software. There is a standalone
+compiler, but it is difficult to write makefiles for, so here are some
+instructions for compiling from PPD, which provides an integrated development 
+environment(IDE). If you use another compiler with an IDE, these instructions
+should give you an idea of how to go about compiling the code on your system.
+
+You should create a separate project file for each program with
+Make -> New project
+
+For abc2midi you need C source files:
+queues.c
+midifile.c
+store.c
+genmidi.c
+parseabc.c
+parser2.c
+
+For midi2abc you need C source files:
+midi2abc.c
+midifile.c
+
+For abc2abc you need C source files:
+toabc.c
+parseabc.c
+
+For yaps you need C source files:
+position.c
+pslib.c
+yapstree.c
+drawtune.c
+debug.c
+parseabc.c
+parser2.c
+
+To compile all files, you need to set a macro
+Make -> CPP pre-defined symbols
+-DANSILIBS
+This causes the necessary ANSI libraries to be included.
+
+[ Note: I do not regularly maintain this file. If these instructions
+  do not work, check the files against those given in the makefiles ]
+
+For yaps you also need to include the floating point library with
+Options -> Use Floating Point Lib
+and also set
+Options -> Memory Model and chip type  to  80186 and Large Memory Model
+

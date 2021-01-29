@@ -1,0 +1,6 @@
+name: win_abcMIDI
+channels:
+  - conda-forge
+dependencies:
+  - make
+  - m2w64-gcc
