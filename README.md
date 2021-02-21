@@ -3,6 +3,8 @@
 the purpose of this repository is to distribute built abcMIDI packages for
 windows and linux
 
+[download release](https://github.com/giftmischer69/abcMIDI/releases/download/1.0.0/abcMIDI.zip)
+
 mirror of: http://abc.sourceforge.net/abcMIDI/original/
 
 ---
